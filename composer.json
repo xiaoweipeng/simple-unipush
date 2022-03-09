@@ -1,0 +1,14 @@
+{
+    "author": "pxwei@pxwei.com",
+    "name": "pxwei/simple-unipush",
+    "autoload": {
+        "psr-4": {
+            "Pxwei\\SimpleUniPush\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2.5 || ^8.0",
+        "guzzlehttp/guzzle": "^7.4.1"
+    },
+    "license": "MIT"
+}
