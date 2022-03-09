@@ -1,10 +1,10 @@
 <?php
 require "vendor/autoload.php";
 $data = [
-    'AppID' => "LluR184juC6ExkrOz0Y5x6",//"zek0xVoCCSA1UnX3kZaX66",
-    'AppKey' => "tKtHQV8ruc5mBQGaLGwuC6",//"wew88uN2GH7YsTrl66PBj1",
-    'AppSecret' => "oWphGYtp8uAb99NZqMxMn8",//"tVx5Qd5MIj5oCxoSRA0Jd6",
-    'MasterSecret' => "j1sWQHHue56PGHesruK8T4",//"0ivIwpj9FZ62HbMfGhTFU6",
+    "LluR184juC6ExkrOz0Y5x6",//'AppID' =>
+    "tKtHQV8ruc5mBQGaLGwuC6",//"wew88uN2GH7YsTrl66PBj1", 'AppKey' =>
+    "oWphGYtp8uAb99NZqMxMn8",//"tVx5Qd5MIj5oCxoSRA0Jd6", AppSecret' =>
+    "j1sWQHHue56PGHesruK8T4",//"0ivIwpj9FZ62HbMfGhTFU6",'MasterSecret' =>
 ];
 $api = \Pxwei\SimpleUniPush\UniPush::make(...$data);
 $r =  $api->push("push/all",'post',[
