@@ -46,7 +46,7 @@ class Base
 
     public function auth()
     {
-        $cacheFile = sys_get_temp_dir() . "/auth.{$this->AppID}.txt";
+        $cacheFile = "auth.{$this->AppID}.txt";
         //判断之前的token是否过期
         if (file_exists($cacheFile))
         {
